@@ -8,8 +8,8 @@ public class ExercicioSeis {
         double raio;
         System.out.println("Digite o valor do raio: ");
         raio = dadoEntrada.nextDouble();
-        double pi = 3.14;
-        double areaCirculo = pi*(raio*raio);
+        double pi = Math.PI;
+        double areaCirculo = pi*Math.pow(raio,2);
 
         System.out.println("A área total do círculo é " + areaCirculo);
 

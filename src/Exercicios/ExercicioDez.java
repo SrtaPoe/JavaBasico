@@ -9,7 +9,7 @@ public class ExercicioDez {
         System.out.println("Digite a temperatura em Celsius: ");
         temperaturaCelsius = dadoEntrada.nextDouble();
 
-        double conversaoCelsiusFarenheit = (temperaturaCelsius * 9 / 5)+32;
+        double conversaoCelsiusFarenheit = (temperaturaCelsius * 1.8)+32;
 
         System.out.println("A temperatura em Farenheit é de " +conversaoCelsiusFarenheit);
 
