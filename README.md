@@ -6,6 +6,7 @@
 
 :one: Lista de exercícios
 - Lista: [N°01](https://github.com/SrtaPoe/JavaBasico/tree/main/out/production/JavaBasico/Exercicios)
+- Lista: [N°02](https://github.com/SrtaPoe/JavaBasico/tree/main/out/production/JavaBasico/Lista/Numero/Dois)
 
 2️⃣ Projetos simples e pequenos aprendidos durante o curso
 
