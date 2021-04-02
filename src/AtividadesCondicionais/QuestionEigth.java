@@ -2,7 +2,7 @@ package AtividadesCondicionais;
 
 import java.util.Scanner;
 
-public class QuestionEight {
+public class QuestionEigth {
     public static void main(String[] args) {
         Scanner dadosEntrada = new Scanner(System.in);
         double precoProdutoUm;

@@ -9,17 +9,25 @@ public class QuestionFour {
         System.out.println("Digite uma letra: ");
         letraConsultada = dadosEntrada.nextLine();
 
-        switch (letraConsultada){
+        if(letraConsultada.length()>1){
+            System.out.println("NÃO É UMA LETRA!");
+        }else{
+        switch (letraConsultada) {
             case "a":
             case "e":
             case "i":
             case "o":
             case "u":
+            case "A":
+            case "E":
+            case "I":
+            case "O":
+            case "U":
                 System.out.println("É uma vogal!");
                 break;
             default:
                 System.out.println("É uma consoante!");
-
+        }
 
         }
     }

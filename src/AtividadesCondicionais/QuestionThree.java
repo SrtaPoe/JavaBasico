@@ -2,16 +2,16 @@ package AtividadesCondicionais;
 
 import java.util.Scanner;
 
-public class QuestionThree {
+public class  QuestionThree {
     public static void main(String[] args) {
         Scanner dadosEntrada = new Scanner(System.in);
         String letra;
         System.out.println("Digite uma letra: ");
         letra = dadosEntrada.next();
 
-        if(letra.equals("F")){
+        if(letra.equalsIgnoreCase("F")){
             System.out.println("Feminino");
-        }else if (letra.equals("M")){
+        }else if (letra.equalsIgnoreCase("M")){
             System.out.println("Masculino");
         }else{
             System.out.println("Sexo Inválido");

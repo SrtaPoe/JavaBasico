@@ -13,12 +13,15 @@ public class QuestionTen {
         letra = dadosEntrada.next();
         switch (letra){
             case "M":
+            case "m":
                 System.out.println("Bom Dia!");
                 break;
             case "V":
+            case "v":
                 System.out.println("Boa Tarde!");
                 break;
             case "N":
+            case "n":
                 System.out.println("Boa Noite!");
                 break;
             default:
