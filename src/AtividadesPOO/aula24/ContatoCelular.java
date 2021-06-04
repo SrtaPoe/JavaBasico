@@ -2,7 +2,7 @@ package AtividadesPOO.aula24;
 
 public class ContatoCelular {
     String nome;
-    int numero;
+    String[] numeros;
     String tipoContato;
 }
 
