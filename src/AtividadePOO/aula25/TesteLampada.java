@@ -6,7 +6,11 @@ public class TesteLampada {
 
         Lampada azurro = new Lampada();
         azurro.nome = "Azurre";
-        azurro.ligada = false;
-        azurro.desligarLampada();
+
+        azurro.acesa();
+        azurro.mudarEstado();
+        azurro.desligada();
+        azurro.mudarEstado();
+
     }
 }
